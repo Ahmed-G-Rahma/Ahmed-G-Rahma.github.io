@@ -1,14 +1,131 @@
 ---
 layout: archive
-title: "Projects and research"
+title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+.pj-row{display:grid;grid-template-columns:150px 1fr 130px;gap:1.2em;align-items:center;padding:1.1em 0;border-bottom:1px solid var(--global-border-color,#ddd)}
+.pj-date{font-weight:700;line-height:1.35}
+.pj-text{text-align:justify;font-size:.95em;line-height:1.55}
+.pj-text p{margin:0 0 .4em}
+.pj-logo{text-align:center}
+.pj-logo img{max-width:100%;max-height:110px;object-fit:contain}
+.pj-block{display:grid;grid-template-columns:210px 1fr;gap:1.4em;padding:1em 0 1.6em}
+.pj-side h3{margin:0 0 .7em;font-size:1em;line-height:1.4}
+.pj-side p{margin:0 0 .7em;font-size:.95em}
+.pj-tag{display:block;margin:0 0 .5em;padding:.4em .6em;text-align:center;font-size:.8em;border-radius:3px;background:var(--global-text-color,#222);color:var(--global-bg-color,#fff)}
+.pj-imgs{display:grid;grid-template-columns:1fr;gap:.8em}
+.pj-imgs.two{grid-template-columns:1fr 1fr}
+.pj-imgs img{width:100%;height:auto;display:block}
+@media (max-width:760px){.pj-row,.pj-block{grid-template-columns:1fr}.pj-logo{text-align:left}.pj-imgs.two{grid-template-columns:1fr}}
+</style>
 
-<h2>Funded projects</h2><hr />
-{% for post in site.portfolio %}{% unless post.category == "research" %}{% include archive-single.html %}{% endunless %}{% endfor %}
+<div class="pj-row">
+  <div class="pj-date">Sep 2024 — Aug 2027</div>
+  <div class="pj-text">PhD Candidate at the project of <strong>2PhaseEx</strong>: Turning Unused Heat Produced by Data Centers into a Resource. Development of a closed-loop, two-phase heat exchanger based on the thermosiphon principle, using environmentally friendly fluids for thermal energy recovery. Interreg Rhin Supérieur. <a href="https://www.interreg-rhin-sup.eu/projet/2phaseex-developpement-dun-echangeur-de-chaleur-diphasique-en-circuit-ferme-base-sur-le-principe-du-thermosiphon-utilisant-des-fluides-respectueux-de-lenvironnement-pour-la-recuper/">Project page</a></div>
+  <div class="pj-logo"><img src="/images/research/logo-2phaseex.png" alt="2PhaseEx"></div>
+</div>
 
-<h2>Research work</h2><hr />
-{% for post in site.portfolio %}{% if post.category == "research" %}{% include archive-single.html %}{% endif %}{% endfor %}
+<div class="pj-row">
+  <div class="pj-date">Jun 2025 — February 2027</div>
+  <div class="pj-text">Visiting PhD researcher involved in the project <strong>MICRO-FLOTEC</strong>: Microscale-Enabled Advanced Flow and Heat Transfer Technologies Featuring High Performance and Low Power Consumption, funded by the European Union, project No: GAN 101082394. <a href="https://cordis.europa.eu/project/id/101082394">CORDIS record</a></div>
+  <div class="pj-logo"><img src="/images/research/logo-micro-flotec.png" alt="MICRO-FLOTEC"></div>
+</div>
+
+<div class="pj-row">
+  <div class="pj-date">Mar 2021 — Mar 2023</div>
+  <div class="pj-text">Research assistant at the project of “High-Performance Computing Algorithms and Software Development for Hemodynamics Analysis of Human Blood Flow”, 1 Million EGP, The Science and Technology Development Fund (STDF) of Egypt, project No: 39385.</div>
+  <div class="pj-logo"><img src="/images/research/logo-stdf.png" alt="STDF"></div>
+</div>
+
+<h2>Two-phase flow (boiling and condensation)</h2><hr />
+<div class="pj-block">
+  <div class="pj-side">
+    <span class="pj-tag">Computational Fluid Dynamics (CFD)</span>
+    <span class="pj-tag">Volume of Fluid (VOF) method</span>
+    <span class="pj-tag">Experimental Fluid Mechanics</span>
+    <span class="pj-tag">Heat transfer</span>
+  </div>
+  <div class="pj-imgs"><img src="/images/research/two-phase-flow.png" alt="VOF simulation of two-phase flow in a series of channels"></div>
+</div>
+
+<h2>Particle tracking &amp; Passive scalar transport</h2><hr />
+<div class="pj-block">
+  <div class="pj-side">
+    <p><strong>Development of fluidic separator for the calibration of contrast-enhanced ultrasound scanner</strong></p>
+    <span class="pj-tag">Computational Fluid Dynamics (CFD)</span>
+    <span class="pj-tag">Particle tracking</span>
+    <span class="pj-tag">Passive scalar transport</span>
+  </div>
+  <div class="pj-imgs"><img src="/images/research/particle-tracking.png" alt="Fluidic separator for calibrating contrast-enhanced ultrasound scanners"></div>
+</div>
+
+<h2>Cardiovascular Biomechanics</h2><hr />
+<div class="pj-block">
+  <div class="pj-side">
+    <p><strong>In-silico Investigation of Intracranial Aneurysms in the Anterior Communicating Artery Zone: A Fluid-Structure Interaction Approach</strong></p>
+    <span class="pj-tag">Computational Fluid Dynamics (CFD)</span>
+    <span class="pj-tag">Fluid–Structure Interaction (FSI)</span>
+  </div>
+  <div class="pj-imgs">
+    <img src="/images/research/aneurysm-acom-1.png" alt="Intracranial aneurysm models, anterior communicating artery">
+    <img src="/images/research/aneurysm-acom-2.png" alt="Intracranial aneurysm simulation results">
+  </div>
+</div>
+
+<div class="pj-block">
+  <div class="pj-side">
+    <p><strong>Hemodynamic Characterization of Abdominal Aortic Fusiform Aneurysm: Insights from Computational Fluid Dynamics Simulations</strong></p>
+    <span class="pj-tag">Computational Fluid Dynamics (CFD)</span>
+    <span class="pj-tag">Fluid–Structure Interaction (FSI)</span>
+  </div>
+  <div class="pj-imgs two">
+    <img src="/images/research/aorta-1.png" alt="Abdominal aortic aneurysm medical imaging and models">
+    <img src="/images/research/aorta-2.png" alt="Abdominal aortic aneurysm geometry workflow">
+  </div>
+</div>
+
+<div class="pj-block">
+  <div class="pj-side">
+    <p><strong>Blood flow CFD simulation on a cerebral artery of a stroke patient</strong></p>
+    <span class="pj-tag">Computational Fluid Dynamics (CFD)</span>
+    <span class="pj-tag">Fluid–Structure Interaction (FSI)</span>
+  </div>
+  <div class="pj-imgs"><img src="/images/research/stroke.png" alt="Cerebral artery blood flow simulation for a stroke patient"></div>
+</div>
+
+<h2>Urban and Climate Modeling</h2><hr />
+<div class="pj-block">
+  <div class="pj-side">
+    <p><strong>Heat transfer and aerodynamic properties of the bluff body</strong></p>
+    <p>Investigating and enhancing the heat transfer and aerodynamic properties of the bluff body.</p>
+    <span class="pj-tag">Computational Fluid Dynamics (CFD)</span>
+    <span class="pj-tag">Fluid-Induced Vibration (FIV)</span>
+    <span class="pj-tag">Fluid–Structure Interaction (FSI)</span>
+  </div>
+  <div class="pj-imgs">
+    <img src="/images/research/bluff-body-1.png" alt="Flow around bluff bodies at different orientations">
+    <div class="pj-imgs two">
+      <img src="/images/research/bluff-body-2.png" alt="Bluff body flow visualisation">
+      <img src="/images/research/bluff-body-3.png" alt="Bluff body temperature field">
+    </div>
+  </div>
+</div>
+
+<h2>CAD</h2><hr />
+<div class="pj-block">
+  <div class="pj-side">
+    <p><strong>Computer-aided design</strong></p>
+    <span class="pj-tag">SolidWorks</span>
+    <span class="pj-tag">AutoCAD</span>
+    <span class="pj-tag">SpaceClaim</span>
+  </div>
+  <div class="pj-imgs two">
+    <img src="/images/research/cad-1.png" alt="CAD model of a test rig assembly">
+    <img src="/images/research/cad-3.png" alt="Test rig schematic and layout">
+    <img src="/images/research/cad-2.png" alt="Exploded CAD view of the assembly">
+    <img src="/images/research/cad-4.png" alt="Plant layout drawing">
+  </div>
+</div>
