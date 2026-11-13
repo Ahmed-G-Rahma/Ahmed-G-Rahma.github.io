@@ -43,13 +43,8 @@ Selected publications
 
 See all on the [Publications](/publications/) page.
 
-Honours and awards
+Editorial and volunteer work
 ======
-* Sep 2024: Fully funded PhD position at ICube Laboratory, Université de Strasbourg
-* Sep 2014: Scholarship for Talented Students, Misr University for Science and Technology
-
-Languages
-======
-* English: C1
-* Arabic: Native speaker
-* French: A1
+* Associate Editor, [Journal of Engineering and Applied Science](https://link.springer.com/journal/44147)
+* Peer reviewer for journals: Applied Thermal Engineering; International Communications in Heat and Mass Transfer; Energy; Scientific Reports; Physics of Fluids; Journal of Engineering and Applied Science; Adsorption; Discover Mechanical Engineering; BMC Musculoskeletal Disorders
+* Conference reviewer: The 7th International Conference on Biological Information and Biomedical Engineering (BIBE 2024)
