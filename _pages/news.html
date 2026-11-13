@@ -1,0 +1,30 @@
+---
+layout: archive
+title: "News"
+permalink: /news/
+author_profile: true
+---
+
+<style>
+.nw-item{display:grid;grid-template-columns:230px 1fr;gap:1.4em;padding:1.2em 0;border-bottom:1px solid var(--global-border-color,#ddd)}
+.nw-img img{width:100%;height:auto;display:block;border-radius:4px}
+.nw-meta{font-size:.8em;margin-bottom:.35em;opacity:.85}
+.nw-tag{display:inline-block;margin-right:.6em;padding:.1em .6em;border-radius:3px;background:var(--global-text-color,#222);color:var(--global-bg-color,#fff);font-size:.9em}
+.nw-body h3{margin:.1em 0 .45em;font-size:1.05em;line-height:1.35}
+.nw-body p{margin:0 0 .6em;font-size:.93em;line-height:1.55;text-align:justify}
+@media (max-width:700px){.nw-item{grid-template-columns:1fr}}
+</style>
+
+<p>Latest updates on publications, conferences and the 2PhaseEx project. Each item links to the original post on LinkedIn.</p>
+
+{% for n in site.data.news %}
+<div class="nw-item">
+  <div class="nw-img"><a href="{{ n.url }}" target="_blank" rel="noopener"><img src="{{ n.image }}" alt="{{ n.title | escape }}" loading="lazy"></a></div>
+  <div class="nw-body">
+    <div class="nw-meta"><span class="nw-tag">{{ n.tag }}</span>{{ n.date | date: "%-d %B %Y" }}</div>
+    <h3>{{ n.title }}</h3>
+    <p>{{ n.text }}</p>
+    <p><a href="{{ n.url }}" target="_blank" rel="noopener">View the post on LinkedIn &rarr;</a></p>
+  </div>
+</div>
+{% endfor %}
