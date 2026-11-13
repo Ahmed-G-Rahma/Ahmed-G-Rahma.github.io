@@ -37,9 +37,9 @@ Research interests
 
 Selected publications
 ======
+* **Rahma, A. G.** et al. (2026). Experimental and numerical investigation of thermo-fluid performance in a subatmospheric two-phase closed thermosiphon: Effect of filling ratio and input power. *International Journal of Thermofluids, 101681*. [doi:10.1016/j.ijft.2026.101681](https://doi.org/10.1016/j.ijft.2026.101681)
+* **Rahma, A. G.** et al. (2026). Thermal performance and flow patterns of confined small-diameter two-phase closed thermosiphons: A three-dimensional numerical investigation. *International Journal of Thermofluids, 101663*. [doi:10.1016/j.ijft.2026.101663](https://doi.org/10.1016/j.ijft.2026.101663)
 * **Rahma, A. G.** et al. (2026). Thermal and flow pattern analysis under confinement and vapor superficial velocity conditions in a two-phase closed thermosiphon: A numerical study. *International Journal of Heat and Mass Transfer, 265, 128849*. [doi:10.1016/j.ijheatmasstransfer.2026.128849](https://doi.org/10.1016/j.ijheatmasstransfer.2026.128849)
-* **Rahma, A. G.** et al. (2025). Numerical assessment of condensation time relaxation coefficients for accurate prediction under atmospheric and sub-atmospheric conditions in two-phase thermosiphon systems. *International Journal of Heat and Mass Transfer, 252, 127485*. [doi:10.1016/j.ijheatmasstransfer.2025.127485](https://doi.org/10.1016/j.ijheatmasstransfer.2025.127485)
-* **Rahma, A. G.** et al. (2025). Two-phase thermosiphon cooling in data centers: A comprehensive review of refrigerants for practical selection. *Journal of Engineering and Applied Science, 72(1)*. [doi:10.1186/s44147-025-00833-3](https://doi.org/10.1186/s44147-025-00833-3)
 
 See all on the [Publications](/publications/) page.
 
