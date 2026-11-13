@@ -3,103 +3,103 @@
   tag: PhD
   title: "PhD defended at the University of Strasbourg"
   text: "On 1 October 2026 I defended my thesis, \"Numerical Simulation of Two-Phase Closed Thermosiphon Systems for Cooling and Heat Recovery in Data Centers\", carried out at ICube within the 2PhaseEx project. Thank you to my supervisors, the jury, and everyone who joined."
-  image: /images/news/2026-10-02.jpg
+  image: /images/2026-10-02.jpg
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_phd-phddefense-doctorate-share-7511658189688586240-JBUi/
 
 - date: 2026-08-03
   tag: Publication
   title: "International Journal of Thermofluids: filling ratio and input power in a subatmospheric thermosiphon"
   text: "Combined experiments and CFD on a two-phase closed thermosiphon for data-center cooling. Five flow patterns were identified, and sensible heat transfer dominates over latent heat."
-  image: /images/news/2026-08-03.jpg
+  image: /images/2026-08-03.jpg
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_cfd-thermofluids-heattransfer-share-7490064626970234880-jW0J/
 
 - date: 2026-07-02
   tag: Publication
   title: "International Journal of Thermofluids: confined small-diameter thermosiphons"
   text: "A three-dimensional CFD study of how confinement affects the thermal performance and flow patterns of small-diameter two-phase closed thermosiphons."
-  image: /images/news/2026-07-02.jpg
+  image: /images/2026-07-02.jpg
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_cfd-thermofluids-heattransfer-share-7478468104021372928-aFrT/
 
 - date: 2026-06-02
   tag: Conference
   title: "Oral presentation at ProHyp2026"
   text: "Presented \"Dimensionless Study of Flow and Thermal Performance in a Two-Phase Closed Thermosiphon\" at the 4th International Workshop on Perspectives on Multiphase Fluid Dynamics, Continuum Mechanics and Hyperbolic Balance Laws."
-  image: /images/news/2026-06-02.jpg
+  image: /images/2026-06-02.jpg
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_it-was-a-great-pleasure-to-present-our-recent-ugcPost-7467542655967723520-RIPp/
 
 - date: 2026-04-19
   tag: Publication
   title: "International Journal of Heat and Mass Transfer: thermal and flow pattern analysis"
   text: "A numerical study of heat transfer and flow regimes inside a two-phase closed thermosiphon, focusing on the combined effect of confinement and vapor superficial velocity."
-  image: /images/news/2026-04-19.jpg
+  image: /images/2026-04-19.jpg
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_thermal-and-flow-pattern-analysis-under-confinement-share-7451723723415588864-O7_0/
 
 - date: 2025-12-18
   tag: Publication
   title: "Review of refrigerants for two-phase thermosiphon cooling in data centers"
   text: "A review that classifies the refrigerants reported in the literature and supports practical refrigerant selection for thermosiphon data-center cooling. Published open access in the Journal of Engineering and Applied Science (Springer Nature)."
-  image: /images/news/2025-12-18.jpg
+  image: /images/2025-12-18.jpg
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_two-phase-thermosiphon-cooling-in-data-centers-share-7407343607570915329-cVMY/
 
 - date: 2025-11-15
   tag: Publication
   title: "NILES 2025 conference paper now online"
   text: "\"Effect of Filling Ratio on Two-Phase Closed Thermosiphon Heat Transfer under Constant Confinement and Weber Number\" is available in IEEE Xplore."
-  image: /images/news/2025-11-15.png
+  image: /images/2025-11-15.png
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_excited-to-share-that-our-conference-paper-share-7395397227235667968-rj7H/
 
 - date: 2025-11-13
   tag: Publication
   title: "Abdominal aortic aneurysm hemodynamics in Discover Applied Sciences"
   text: "CFD simulations characterising blood flow in an abdominal aortic fusiform aneurysm, work done in my previous position as a research assistant in Dr. Talaat Abdelhamid's lab."
-  image: /images/news/2025-11-13.png
+  image: /images/2025-11-13.png
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_im-happy-to-share-our-recent-publication-share-7394783962973315073-rPvq/
 
 - date: 2025-11-07
   tag: Publication
   title: "ICEEM-2025 conference paper now online"
   text: "\"Influence of Filling Ratio on Flow Pattern in a Two-Phase Closed Thermosiphon at Fixed Confinement Number\" is available in IEEE Xplore."
-  image: /images/news/2025-11-07.png
+  image: /images/2025-11-07.png
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_excited-to-share-that-our-conference-paper-share-7392455402300424192-CRUR/
 
 - date: 2025-10-27
   tag: Conference
   title: "Presentation at NILES 2025"
   text: "Presented \"Effect of Filling Ratio on Two-Phase Closed Thermosiphon Heat Transfer under Constant Confinement and Weber Number\" as part of the 2PhaseEx project."
-  image: /images/news/2025-10-27.jpg
+  image: /images/2025-10-27.jpg
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_it-was-a-great-pleasure-to-present-our-conference-share-7388528424736309248-fb5l/
 
 - date: 2025-10-09
   tag: Conference
   title: "Presentation at ICEEM-2025, Menoufia University"
   text: "Presented \"Influence of Filling Ratio on Flow Pattern in a Two-Phase Closed Thermosiphon at Fixed Confinement Number\" at the 4th International ICEEM-2025 Conference. The paper is in the IEEE Xplore proceedings."
-  image: /images/news/2025-10-09.jpg
+  image: /images/2025-10-09.jpg
   url: https://www.linkedin.com/feed/update/urn:li:activity:7382015005476593665/
 
 - date: 2025-08-26
   tag: Conference
   title: "Presentation at CFM 2025, Metz"
   text: "Presented \"Numerical Investigation of Condensation Time Relaxation Coefficients in Two-Phase Thermosiphon Systems for Low-Pressure Applications\" at the 26th French Congress of Mechanics, University of Lorraine."
-  image: /images/news/2025-08-26.jpg
+  image: /images/2025-08-26.jpg
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_i-had-the-pleasure-of-presenting-our-conference-share-7366156407219437569-Lm79/
 
 - date: 2025-08-18
   tag: Project
   title: "2PhaseEx research exchange at the University of Padua"
   text: "From 25 June to 24 July 2025, an exchange under the supervision of Prof. Simone Mancin on experimental and numerical work on thermosiphons for electronics cooling, including a surface-treated evaporator design and test-rig development."
-  image: /images/news/2025-08-18.jpg
+  image: /images/2025-08-18.jpg
   url: https://www.linkedin.com/feed/update/urn:li:activity:7363200968412332032/
 
 - date: 2025-07-08
   tag: Publication
   title: "International Journal of Heat and Mass Transfer: condensation time relaxation coefficients"
   text: "A numerical assessment of the coefficients needed to predict condensation accurately in two-phase thermosiphons at atmospheric and subatmospheric pressure."
-  image: /images/news/2025-07-08.jpg
+  image: /images/2025-07-08.jpg
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_numerical-assessment-of-condensation-time-share-7348402494579892226-gqu8/
 
 - date: 2024-11-09
   tag: Publication
   title: "Calibration setup for contrast-enhanced ultrasound imaging"
   text: "Numerical simulations for a calibration setup for the dynamic contrast-enhanced ultrasonography imaging protocol, published in the International Journal for Numerical Methods in Biomedical Engineering, with Université Paris-Saclay."
-  image: /images/news/2024-11-09.jpg
+  image: /images/2024-11-09.jpg
   url: https://www.linkedin.com/posts/ahmed-g-rahma-233993190_im-excited-to-announce-our-latest-publication-ugcPost-7261021594913849344-9W3P/
