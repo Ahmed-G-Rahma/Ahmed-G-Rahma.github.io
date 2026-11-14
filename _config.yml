@@ -23,7 +23,7 @@ repository               : "Ahmed-G-Rahma/Ahmed-G-Rahma.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile-square.png"
   name             : "Ahmed G. Rahma"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral researcher in numerical and experimental thermo-fluid engineering"
