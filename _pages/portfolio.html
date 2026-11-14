@@ -19,7 +19,14 @@ author_profile: true
 .pj-imgs{display:grid;grid-template-columns:1fr;gap:.8em}
 .pj-imgs.two{grid-template-columns:1fr 1fr}
 .pj-imgs img{width:100%;height:auto;display:block}
-@media (max-width:760px){.pj-row,.pj-block{grid-template-columns:1fr}.pj-logo{text-align:left}.pj-imgs.two{grid-template-columns:1fr}}
+.pj-tp{display:grid;grid-template-columns:1fr 64px;gap:1.2em;align-items:start}
+.pj-tp-figs{display:grid;gap:.9em}
+.pj-tp-figs img{width:100%;height:auto;display:block}
+.pj-tp-figs img.pj-small{width:50%}
+.pj-tube{margin:0;text-align:center}
+.pj-tube video{width:48px;height:auto;display:block;margin:0 auto}
+.pj-tube figcaption{font-size:.62em;line-height:1.25;margin-top:.5em;opacity:.8}
+@media (max-width:760px){.pj-row,.pj-block{grid-template-columns:1fr}.pj-tp-figs img.pj-small{width:70%}.pj-logo{text-align:left}.pj-imgs.two{grid-template-columns:1fr}}
 </style>
 
 <div class="pj-row">
@@ -48,7 +55,18 @@ author_profile: true
     <span class="pj-tag">Experimental Fluid Mechanics</span>
     <span class="pj-tag">Heat transfer</span>
   </div>
-  <div class="pj-imgs"><img src="/images/research/two-phase-flow.png" alt="VOF simulation of two-phase flow in a series of channels"></div>
+  <div class="pj-tp">
+    <div class="pj-tp-figs">
+      <img class="pj-small" src="/images/research/two-phase-flow.png" alt="VOF simulation of two-phase flow in a series of channels">
+      <img src="/images/tp-htc-maps.jpg" alt="Heat transfer coefficient maps over time for filling ratios of 50 to 150 percent and input powers of 100 to 500 W">
+      <img src="/images/tp-intermittent-confined.jpg" alt="Temperature and pressure signals with vapour fraction snapshots showing intermittent confined flow in a thermosiphon">
+      <img src="/images/tp-case1-slug-flow.jpg" alt="Slug flow case: vapour fraction, temperature, heat transfer coefficient, heat flux and pressure spectra">
+    </div>
+    <figure class="pj-tube">
+      <video src="/images/two-phase-tube.mp4" autoplay loop muted playsinline preload="metadata" aria-label="Animation of the vapour volume fraction inside the thermosiphon tube"></video>
+      <figcaption>Vapour volume fraction in the tube (CFD)</figcaption>
+    </figure>
+  </div>
 </div>
 
 <h2>Particle tracking &amp; Passive scalar transport</h2><hr />
