@@ -15,7 +15,7 @@ author_profile: true
 @media (max-width:700px){.nw-item{grid-template-columns:1fr}}
 </style>
 
-<p>Latest updates on publications, conferences and the 2PhaseEx project. Each item links to the original post on LinkedIn.</p>
+<p>Latest updates on publications, conferences and the 2PhaseEx project. Each item links to the original LinkedIn post or to the related document.</p>
 
 {% for n in site.data.news %}
 <div class="nw-item">
@@ -24,7 +24,7 @@ author_profile: true
     <div class="nw-meta"><span class="nw-tag">{{ n.tag }}</span>{{ n.date | date: "%-d %B %Y" }}</div>
     <h3>{{ n.title }}</h3>
     <p>{{ n.text }}</p>
-    <p><a href="{{ n.url }}" target="_blank" rel="noopener">View the post on LinkedIn &rarr;</a></p>
+    <p><a href="{{ n.url }}" target="_blank" rel="noopener">{{ n.label | default: "View the post on LinkedIn" }} &rarr;</a></p>
   </div>
 </div>
 {% endfor %}
