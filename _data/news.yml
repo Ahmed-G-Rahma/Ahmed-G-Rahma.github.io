@@ -1,4 +1,12 @@
 # News items, newest first. To add one: copy an entry, change the fields, add the picture to images/news/
+- date: 2026-10-29
+  tag: Conference
+  title: "Poster presentation at the UK Droplets Forum 2026"
+  text: "I presented our poster, \"Numerical Simulation of Two-Phase Closed Thermosiphon Systems for Cooling and Heat Recovery in Data Centers\", at the UK Droplets Forum 2026 (Interfacial Transport and Thermal Processes), held on 29 October 2026 at the Dyson Institute of Engineering and Technology. The forum brought together researchers working on droplets, bubbles, liquid films, wetting, phase change and interfacial transport. The poster summarises our 2PhaseEx work at ICube: refrigerant selection, validation of the CFD model, flow patterns and the effect of confinement in small-diameter thermosiphons. It was a great opportunity to discuss the results with the UK droplets community."
+  image: /images/WhatsA56554545.jpeg
+  url: /images/Rahma_Poster_UK-Droplets-Forum-2026.pdf
+  label: "Open the poster (PDF)"
+
 - date: 2026-10-02
   tag: PhD
   title: "PhD defended at the University of Strasbourg"
