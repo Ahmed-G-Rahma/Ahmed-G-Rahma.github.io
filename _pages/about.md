@@ -11,7 +11,7 @@ Postdoctoral researcher in numerical and experimental thermo-fluid engineering (
 
 Experience spans industrial R&D (Hyperheat GmbH), short-term numerical modelling support for an industrial partner (Geolith), multi-partner projects (Interreg 2PhaseEx with 2CRSI, BDR Thermea, SOGEFI, Secon; EU MICRO-FLOTEC with the University of Padova) and academic collaborations in six countries.
 
-My doctoral thesis, *Numerical Simulation of Two-Phase Closed Thermosiphon Systems for Cooling and Heat Recovery in Data Centers*, was defended on 1 October 2026 at ICube, University of Strasbourg, under Prof. Denis Funfschilling and Prof. Abdellah Ghenaim.
+My doctoral thesis, *Numerical Simulation of Two-Phase Closed Thermosiphon Systems for Cooling and Heat Recovery in Data Centers*, was defended on 1 October 2026 at ICube, University of Strasbourg, under Prof. Denis Funfschilling, Prof. Abdellah Ghenaim and Dr. Abderahmane Marouf.
 
 <p>
 <a href="https://orcid.org/0000-0001-5950-3348"><i class="ai ai-orcid ai-fw"></i> ORCID 0000-0001-5950-3348</a> &nbsp;|&nbsp;
