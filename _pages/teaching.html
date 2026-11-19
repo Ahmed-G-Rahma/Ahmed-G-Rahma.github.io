@@ -5,8 +5,54 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+.tc-sum{margin:0 0 1.2em;padding:.8em 1em;border-left:4px solid var(--global-link-color,#1a5fd0);background:rgba(127,127,127,.08);font-size:.95em;line-height:1.55}
+.tc-row{display:grid;grid-template-columns:175px 1fr;gap:1.2em;padding:1.1em 0;border-bottom:1px solid var(--global-border-color,#ddd)}
+.tc-date{font-weight:700;line-height:1.35}
+.tc-date small{display:block;font-weight:400;opacity:.75;margin-top:.2em}
+.tc-body h3{margin:0 0 .15em;font-size:1.05em;line-height:1.35}
+.tc-where{font-size:.9em;opacity:.85;margin:0 0 .5em}
+.tc-body p{margin:0 0 .5em;font-size:.95em;line-height:1.55;text-align:justify}
+.tc-courses{margin:.2em 0 0;padding-left:1.2em;font-size:.95em;line-height:1.55}
+.tc-courses li{margin-bottom:.35em}
+.tc-courses .tc-h{opacity:.7;white-space:nowrap}
+@media (max-width:700px){.tc-row{grid-template-columns:1fr;gap:.4em}}
+</style>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<p class="tc-sum"><strong>Teaching experience:</strong> three teaching assistant roles in France and Egypt, with 64 h per year of teaching in France (36 h of computational fluid mechanics and 28 h of laboratory sessions).</p>
+
+<div class="tc-row">
+<div class="tc-date">Sep 2024 &ndash; Oct 2026</div>
+<div class="tc-body">
+<h3>University of Strasbourg</h3>
+<p class="tc-where">Teaching assistant &middot; Strasbourg, France</p>
+<ul class="tc-courses">
+<li><strong>Advanced computational fluid mechanics</strong> <span class="tc-h">(36 h per year)</span><br>Guided students in advanced computational fluid mechanics, including practical use of CFD software.</li>
+</ul>
+</div>
+</div>
+
+<div class="tc-row">
+<div class="tc-date">Sep 2024 &ndash; Oct 2026</div>
+<div class="tc-body">
+<h3>Icam Strasbourg-Europe</h3>
+<p class="tc-where">Teaching assistant &middot; Strasbourg, France</p>
+<ul class="tc-courses">
+<li><strong>Fluid mechanics laboratory sessions</strong> <span class="tc-h">(28 h per year)</span><br>Supervised fluid mechanics laboratory sessions, assisting students with experiments and data analysis.</li>
+</ul>
+</div>
+</div>
+
+<div class="tc-row">
+<div class="tc-date">Jul 2019 &ndash; Jan 2021<small>about 1.5 years</small></div>
+<div class="tc-body">
+<h3>Misr University for Science and Technology</h3>
+<p class="tc-where">Teaching assistant, Faculty of Engineering &middot; Giza, Egypt</p>
+<ul class="tc-courses">
+<li><strong>Heat Transfer</strong> <span class="tc-h">(ME 314)</span></li>
+<li><strong>Heat Exchanger Design</strong> <span class="tc-h">(ME 564)</span></li>
+<li><strong>Refrigeration and Air-Conditioning</strong> <span class="tc-h">(ME 412)</span></li>
+<li><strong>Introduction to Finite Element Analysis</strong> <span class="tc-h">(ME 504)</span></li>
+</ul>
+</div>
+</div>
